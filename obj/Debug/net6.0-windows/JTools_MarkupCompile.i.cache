@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\wpf\JTools\App.xaml
-2-895578486
+3-2105274083
 
-6768129832
+7-1895929364
 194-1976662911
-Base64Windows.xaml;MainWindow.xaml;
+Base64Window.xaml;FileHashWindow.xaml;MainWindow.xaml;
 
-False
+True
 

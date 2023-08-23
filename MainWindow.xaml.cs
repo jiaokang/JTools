@@ -11,11 +11,26 @@ namespace JTools
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// 打开PDF文件转Base64子窗口
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button_base64_Click(object sender, RoutedEventArgs e)
         {
-            Base64Windows base64Windows = new Base64Windows();
-            base64Windows.Show();
+            Base64Window base64Window = new Base64Window();
+            base64Window.Show();
+        }
+
+        /// <summary>
+        /// 打开文件计算文件hash值子窗口
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void button_file_hash_Click(object sender, RoutedEventArgs e)
+        {
+            FileHashWindow fileHashWindow = new FileHashWindow();
+            fileHashWindow.Show();
         }
     }
 }

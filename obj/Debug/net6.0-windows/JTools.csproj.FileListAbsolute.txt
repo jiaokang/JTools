@@ -19,5 +19,5 @@ D:\wpf\JTools\obj\Debug\net6.0-windows\refint\JTools.dll
 D:\wpf\JTools\obj\Debug\net6.0-windows\JTools.pdb
 D:\wpf\JTools\obj\Debug\net6.0-windows\JTools.genruntimeconfig.cache
 D:\wpf\JTools\obj\Debug\net6.0-windows\ref\JTools.dll
-D:\wpf\JTools\obj\Debug\net6.0-windows\Base64Windows.g.cs
-D:\wpf\JTools\obj\Debug\net6.0-windows\Base64Windows.baml
+D:\wpf\JTools\obj\Debug\net6.0-windows\Base64Window.g.cs
+D:\wpf\JTools\obj\Debug\net6.0-windows\Base64Window.baml
