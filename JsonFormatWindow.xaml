@@ -1,0 +1,16 @@
+﻿<Window x:Class="JTools.JsonFormatWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JTools"
+        mc:Ignorable="d"
+        Title="JsonFormatWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="sourceText" HorizontalAlignment="Left" Margin="28,0,0,0" TextWrapping="Wrap" Text="输入待格式化json字符串" VerticalAlignment="Center" Width="187" Height="385"/>
+        <Button x:Name="jsonFormat" Content="格式化" HorizontalAlignment="Left" Margin="254,185,0,0" VerticalAlignment="Top" Width="63" Click="jsonFormat_Click"/>
+        <TextBox x:Name="targetText" HorizontalAlignment="Left" Margin="365,0,0,0" TextWrapping="Wrap" Text="格式化json字符串" VerticalAlignment="Center" Width="406" Height="385"/>
+
+
+    </Grid>
+</Window>

@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="FileHashWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="button" Content="打开文件" HorizontalAlignment="Left" Margin="27,20,0,0" VerticalAlignment="Top" Height="43" Width="738" Click="open_file_Click"/>
+        <Button x:Name="button" Content="打开文件" HorizontalAlignment="Left" Margin="27,20,0,0" VerticalAlignment="Top" Height="43" Width="738" Click="Open_file_Click"/>
         <TextBox x:Name="output_box" HorizontalAlignment="Left" Margin="27,96,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="667" Height="43" FontSize="30" />
-        <Button x:Name="copy_button" Content="copy" HorizontalAlignment="Left" Margin="694,96,0,0" VerticalAlignment="Top" Height="43" Width="71" Click="copy_clipboard_Click"/>
+        <Button x:Name="copy_button" Content="copy" HorizontalAlignment="Left" Margin="694,96,0,0" VerticalAlignment="Top" Height="43" Width="71" Click="Copy_clipboard_Click"/>
 
     </Grid>
 </Window>

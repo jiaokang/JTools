@@ -32,5 +32,16 @@ namespace JTools
             FileHashWindow fileHashWindow = new FileHashWindow();
             fileHashWindow.Show();
         }
+
+        /// <summary>
+        /// 打开JsonFormat子窗口
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void button_json_format_Click(object sender, RoutedEventArgs e)
+        {
+            JsonFormatWindow jsonFormatWindow = new JsonFormatWindow();
+            jsonFormatWindow.Show();
+        }
     }
 }

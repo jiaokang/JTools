@@ -18,7 +18,6 @@ namespace JTools
         private void button_chooseFile_Click(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = "PDF files (*.pdf)|*.pdf";
             if (openFileDialog.ShowDialog() == true)
             {
                 string filePath = openFileDialog.FileName;

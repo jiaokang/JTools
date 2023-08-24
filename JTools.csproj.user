@@ -13,12 +13,18 @@
     <Compile Update="FileHashWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="JsonFormatWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Base64Window.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="FileHashWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="JsonFormatWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">

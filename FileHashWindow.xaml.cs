@@ -16,7 +16,7 @@ namespace JTools
             InitializeComponent();
         }
 
-        private void open_file_Click(object sender, RoutedEventArgs e)
+        private void Open_file_Click(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             if (openFileDialog.ShowDialog() == true)
@@ -41,7 +41,7 @@ namespace JTools
             return hashString;
         }
 
-        private void copy_clipboard_Click(object sender, RoutedEventArgs e)
+        private void Copy_clipboard_Click(object sender, RoutedEventArgs e)
         {
             string md5DigestString = output_box.Text;
             Clipboard.SetText(md5DigestString);
